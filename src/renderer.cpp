@@ -1,6 +1,6 @@
 #include "renderer.h"
 #include "snake.h"
-#include "object.h"
+#include "common.h"
 #include <iostream>
 #include <string>
 
@@ -50,29 +50,23 @@ void Renderer::Render(void) {
   SDL_SetRenderDrawColor(sdl_renderer, 0x1E, 0x1E, 0x1E, 0xFF);
   SDL_RenderClear(sdl_renderer);
 
-
   for(auto it : _gameObjects)
   {
+    std::unique_lock<std::mutex> lck(it->_mutex);
     if(it->getType() == ObjectType::objFood)
     {
       // Render food
       SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0xCC, 0x00, 0xFF);
-      int posx, posy;
-      //_food->getPosition(posx, posy);
-      it->getPosition(posx, posy);
-      block.x = posx * block.w;
-      block.y = posy * block.h;
+      int foodx, foody;
+      it->getPosition(foodx, foody);
+      block.x = foodx * block.w;
+      block.y = foody * block.h;
       SDL_RenderFillRect(sdl_renderer, &block);
     }
     else if(it->getType() == ObjectType::objSnake)
     {
-      // cast object type from Object to Snake
-      //std::dynamic_pointer_cast<Object>(it);
-      std::dynamic_pointer_cast<Snake>(it);
+      auto snake = std::dynamic_pointer_cast<Snake>(it);
 
-      //std::shared_ptr<Snake> snake = std::dynamic_pointer_cast<Snake>(it);
-
-      /* 
       // Render snake's body
       SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0xFF, 0xFF, 0xFF);
       for (SDL_Point const &point : snake->body)
@@ -83,49 +77,25 @@ void Renderer::Render(void) {
       }
 
       // Render snake's head
-      block.x = static_cast<int>(snake->head_x) * block.w;
-      block.y = static_cast<int>(snake->head_y) * block.h;
+      int headx, heady;
+      snake->getPosition(headx, heady);
+      block.x = headx * block.w;
+      block.y = heady * block.h;
       if (snake->alive)
       {
-        SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x7A, 0xCC, 0xFF);
+        if(snake->getPlayer() == 0)
+          SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x7A, 0xCC, 0xFF);
+        else
+          SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0x00, 0x00, 0xFF);
       }
       else
       {
         SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0x00, 0x00, 0xFF);
       }
       SDL_RenderFillRect(sdl_renderer, &block);
-      */
     }
+    lck.unlock();
   }
-
-  /*
-  // todo
-  // Render food
-  SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0xCC, 0x00, 0xFF);
-  int posx, posy;
-  _food->getPosition(posx, posy);
-  block.x = posx * block.w;
-  block.y = posy * block.h;
-  SDL_RenderFillRect(sdl_renderer, &block);
-
-  // Render snake's body
-  SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0xFF, 0xFF, 0xFF);
-  for (SDL_Point const &point : _snake->body) {
-    block.x = point.x * block.w;
-    block.y = point.y * block.h;
-    SDL_RenderFillRect(sdl_renderer, &block);
-  }
-
-  // Render snake's head
-  block.x = static_cast<int>(_snake->head_x) * block.w;
-  block.y = static_cast<int>(_snake->head_y) * block.h;
-  if (_snake->alive) {
-    SDL_SetRenderDrawColor(sdl_renderer, 0x00, 0x7A, 0xCC, 0xFF);
-  } else {
-    SDL_SetRenderDrawColor(sdl_renderer, 0xFF, 0x00, 0x00, 0xFF);
-  }
-  SDL_RenderFillRect(sdl_renderer, &block);
-  */
 
   // Update Screen
   SDL_RenderPresent(sdl_renderer);
@@ -136,7 +106,7 @@ void Renderer::UpdateWindowTitle(int score, int fps) {
   SDL_SetWindowTitle(sdl_window, title.c_str());
 }
 
-void Renderer::Simulate(void)
+void Renderer::Draw(void)
 {
   constexpr std::size_t kFramesPerSecond{60};
   constexpr std::size_t kMsPerFrame{1000 / kFramesPerSecond};
@@ -146,8 +116,10 @@ void Renderer::Simulate(void)
   Uint32 frame_duration;
   int frame_count = 0;
 
-  while (1)
+  while (g_Running)
   {
+    std::this_thread::sleep_for(std::chrono::milliseconds(1));
+
     frame_start = SDL_GetTicks();
 
     this->Render();
@@ -160,8 +132,6 @@ void Renderer::Simulate(void)
 
     // After every second, update the window title.
     if (frame_end - title_timestamp >= 1000) {
-      //renderer.UpdateWindowTitle(score, frame_count);
-      //todo : set score
       this->UpdateWindowTitle(1, frame_count);
       frame_count = 0;
       title_timestamp = frame_end;
@@ -175,5 +145,9 @@ void Renderer::Simulate(void)
     }
   }
 
+}
 
+void Renderer::Simulate(void)
+{
+  thread = std::thread(&Renderer::Draw, this);
 }

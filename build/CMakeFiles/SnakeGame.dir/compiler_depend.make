@@ -58,38 +58,6 @@ CMakeFiles/SnakeGame.dir/src/controller.cpp.o: ../src/controller.cpp \
   /usr/include/c++/9/bits/functional_hash.h \
   /usr/include/c++/9/bits/range_access.h \
   /usr/include/c++/9/bits/vector.tcc \
-  /usr/include/c++/9/thread \
-  /usr/include/c++/9/chrono \
-  /usr/include/c++/9/ratio \
-  /usr/include/c++/9/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/9/limits \
-  /usr/include/c++/9/ctime \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/c++/9/bits/parse_numbers.h \
   /usr/include/c++/9/memory \
   /usr/include/c++/9/bits/stl_tempbuf.h \
   /usr/include/c++/9/bits/stl_raw_storage_iter.h \
@@ -98,22 +66,43 @@ CMakeFiles/SnakeGame.dir/src/controller.cpp.o: ../src/controller.cpp \
   /usr/include/c++/9/bits/postypes.h \
   /usr/include/c++/9/cwchar \
   /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/9/ext/atomicity.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -131,6 +120,11 @@ CMakeFiles/SnakeGame.dir/src/controller.cpp.o: ../src/controller.cpp \
   /usr/include/c++/9/stdexcept \
   /usr/include/c++/9/string \
   /usr/include/c++/9/bits/char_traits.h \
+  /usr/include/c++/9/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/9/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
   /usr/include/c++/9/clocale \
@@ -142,6 +136,7 @@ CMakeFiles/SnakeGame.dir/src/controller.cpp.o: ../src/controller.cpp \
   /usr/include/c++/9/bits/cxxabi_forced.h \
   /usr/include/c++/9/bits/basic_string.h \
   /usr/include/c++/9/string_view \
+  /usr/include/c++/9/limits \
   /usr/include/c++/9/bits/string_view.tcc \
   /usr/include/c++/9/ext/string_conversions.h \
   /usr/include/c++/9/cstdlib \
@@ -188,6 +183,39 @@ CMakeFiles/SnakeGame.dir/src/controller.cpp.o: ../src/controller.cpp \
   /usr/include/c++/9/backward/auto_ptr.h \
   /usr/include/c++/9/pstl/glue_memory_defs.h \
   /usr/include/c++/9/pstl/execution_defs.h \
+  /usr/include/c++/9/iostream \
+  /usr/include/c++/9/ostream \
+  /usr/include/c++/9/ios \
+  /usr/include/c++/9/bits/ios_base.h \
+  /usr/include/c++/9/bits/locale_classes.h \
+  /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/system_error \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
+  /usr/include/c++/9/streambuf \
+  /usr/include/c++/9/bits/streambuf.tcc \
+  /usr/include/c++/9/bits/basic_ios.h \
+  /usr/include/c++/9/bits/locale_facets.h \
+  /usr/include/c++/9/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
+  /usr/include/c++/9/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
+  /usr/include/c++/9/bits/locale_facets.tcc \
+  /usr/include/c++/9/bits/basic_ios.tcc \
+  /usr/include/c++/9/bits/ostream.tcc \
+  /usr/include/c++/9/istream \
+  /usr/include/c++/9/bits/istream.tcc \
+  /usr/include/c++/9/deque \
+  /usr/include/c++/9/bits/stl_deque.h \
+  /usr/include/c++/9/bits/deque.tcc \
+  /usr/include/c++/9/condition_variable \
+  /usr/include/c++/9/chrono \
+  /usr/include/c++/9/ratio \
+  /usr/include/c++/9/ctime \
+  /usr/include/c++/9/bits/parse_numbers.h \
+  /usr/include/c++/9/bits/std_mutex.h \
+  /usr/include/c++/9/bits/unique_lock.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_main.h \
   /usr/include/SDL2/SDL_stdinc.h \
@@ -328,33 +356,19 @@ CMakeFiles/SnakeGame.dir/src/controller.cpp.o: ../src/controller.cpp \
   /usr/include/SDL2/SDL_system.h \
   /usr/include/SDL2/SDL_timer.h \
   /usr/include/SDL2/SDL_version.h \
-  ../src/object.h \
+  ../src/common.h \
+  /usr/include/c++/9/thread \
   /usr/include/c++/9/mutex \
-  /usr/include/c++/9/system_error \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
-  /usr/include/c++/9/bits/std_mutex.h \
-  /usr/include/c++/9/bits/unique_lock.h \
-  /usr/include/c++/9/iostream \
-  /usr/include/c++/9/ostream \
-  /usr/include/c++/9/ios \
-  /usr/include/c++/9/bits/ios_base.h \
-  /usr/include/c++/9/bits/locale_classes.h \
-  /usr/include/c++/9/bits/locale_classes.tcc \
-  /usr/include/c++/9/streambuf \
-  /usr/include/c++/9/bits/streambuf.tcc \
-  /usr/include/c++/9/bits/basic_ios.h \
-  /usr/include/c++/9/bits/locale_facets.h \
-  /usr/include/c++/9/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
-  /usr/include/c++/9/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
-  /usr/include/c++/9/bits/locale_facets.tcc \
-  /usr/include/c++/9/bits/basic_ios.tcc \
-  /usr/include/c++/9/bits/ostream.tcc \
-  /usr/include/c++/9/istream \
-  /usr/include/c++/9/bits/istream.tcc
+  ../src/game.h \
+  /usr/include/c++/9/random \
+  /usr/include/c++/9/bits/random.h \
+  /usr/include/c++/9/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/opt_random.h \
+  /usr/include/c++/9/bits/random.tcc \
+  /usr/include/c++/9/numeric \
+  /usr/include/c++/9/bits/stl_numeric.h \
+  /usr/include/c++/9/pstl/glue_numeric_defs.h \
+  ../src/renderer.h
 
 CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/game.cpp \
   /usr/include/stdc-predef.h \
@@ -665,13 +679,8 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/game.cpp \
   /usr/include/SDL2/SDL_system.h \
   /usr/include/SDL2/SDL_timer.h \
   /usr/include/SDL2/SDL_version.h \
-  ../src/controller.h \
+  ../src/renderer.h \
   ../src/snake.h \
-  /usr/include/c++/9/thread \
-  /usr/include/c++/9/chrono \
-  /usr/include/c++/9/ratio \
-  /usr/include/c++/9/ctime \
-  /usr/include/c++/9/bits/parse_numbers.h \
   /usr/include/c++/9/memory \
   /usr/include/c++/9/bits/stl_tempbuf.h \
   /usr/include/c++/9/bits/stl_raw_storage_iter.h \
@@ -692,19 +701,14 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/game.cpp \
   /usr/include/c++/9/bits/atomic_lockfree_defines.h \
   /usr/include/c++/9/backward/auto_ptr.h \
   /usr/include/c++/9/pstl/glue_memory_defs.h \
-  ../src/object.h \
-  /usr/include/c++/9/mutex \
-  /usr/include/c++/9/system_error \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
-  /usr/include/c++/9/bits/std_mutex.h \
-  /usr/include/c++/9/bits/unique_lock.h \
-  ../src/renderer.h \
   /usr/include/c++/9/iostream \
   /usr/include/c++/9/ostream \
   /usr/include/c++/9/ios \
   /usr/include/c++/9/bits/ios_base.h \
   /usr/include/c++/9/bits/locale_classes.h \
   /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/system_error \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
   /usr/include/c++/9/streambuf \
   /usr/include/c++/9/bits/streambuf.tcc \
   /usr/include/c++/9/bits/basic_ios.h \
@@ -720,8 +724,20 @@ CMakeFiles/SnakeGame.dir/src/game.cpp.o: ../src/game.cpp \
   /usr/include/c++/9/bits/ostream.tcc \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/bits/istream.tcc \
-  /usr/include/c++/9/future \
+  /usr/include/c++/9/deque \
+  /usr/include/c++/9/bits/stl_deque.h \
+  /usr/include/c++/9/bits/deque.tcc \
   /usr/include/c++/9/condition_variable \
+  /usr/include/c++/9/chrono \
+  /usr/include/c++/9/ratio \
+  /usr/include/c++/9/ctime \
+  /usr/include/c++/9/bits/parse_numbers.h \
+  /usr/include/c++/9/bits/std_mutex.h \
+  /usr/include/c++/9/bits/unique_lock.h \
+  ../src/common.h \
+  /usr/include/c++/9/thread \
+  /usr/include/c++/9/mutex \
+  /usr/include/c++/9/future \
   /usr/include/c++/9/atomic \
   /usr/include/c++/9/bits/atomic_futex.h \
   /usr/include/c++/9/bits/std_function.h
@@ -959,6 +975,9 @@ CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/9/bits/atomic_futex.h \
   ../src/controller.h \
   ../src/snake.h \
+  /usr/include/c++/9/deque \
+  /usr/include/c++/9/bits/stl_deque.h \
+  /usr/include/c++/9/bits/deque.tcc \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_main.h \
   /usr/include/SDL2/SDL_stdinc.h \
@@ -1099,7 +1118,7 @@ CMakeFiles/SnakeGame.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/SDL2/SDL_system.h \
   /usr/include/SDL2/SDL_timer.h \
   /usr/include/SDL2/SDL_version.h \
-  ../src/object.h \
+  ../src/common.h \
   ../src/game.h \
   /usr/include/c++/9/random \
   /usr/include/c++/9/bits/random.h \
@@ -1365,17 +1384,6 @@ CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/renderer.cpp \
   /usr/include/SDL2/SDL_timer.h \
   /usr/include/SDL2/SDL_version.h \
   ../src/snake.h \
-  /usr/include/c++/9/thread \
-  /usr/include/c++/9/chrono \
-  /usr/include/c++/9/ratio \
-  /usr/include/c++/9/cstdint \
-  /usr/include/c++/9/ctime \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/c++/9/bits/parse_numbers.h \
   /usr/include/c++/9/memory \
   /usr/include/c++/9/bits/stl_tempbuf.h \
   /usr/include/c++/9/bits/stl_raw_storage_iter.h \
@@ -1391,6 +1399,11 @@ CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/renderer.cpp \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
   /usr/include/c++/9/ext/concurrence.h \
@@ -1403,6 +1416,7 @@ CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/renderer.cpp \
   /usr/include/c++/9/stdexcept \
   /usr/include/c++/9/string \
   /usr/include/c++/9/bits/char_traits.h \
+  /usr/include/c++/9/cstdint \
   /usr/include/c++/9/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
   /usr/include/c++/9/clocale \
@@ -1437,18 +1451,14 @@ CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/renderer.cpp \
   /usr/include/c++/9/backward/auto_ptr.h \
   /usr/include/c++/9/pstl/glue_memory_defs.h \
   /usr/include/c++/9/pstl/execution_defs.h \
-  ../src/object.h \
-  /usr/include/c++/9/mutex \
-  /usr/include/c++/9/system_error \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
-  /usr/include/c++/9/bits/std_mutex.h \
-  /usr/include/c++/9/bits/unique_lock.h \
   /usr/include/c++/9/iostream \
   /usr/include/c++/9/ostream \
   /usr/include/c++/9/ios \
   /usr/include/c++/9/bits/ios_base.h \
   /usr/include/c++/9/bits/locale_classes.h \
   /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/system_error \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
   /usr/include/c++/9/streambuf \
   /usr/include/c++/9/bits/streambuf.tcc \
   /usr/include/c++/9/bits/basic_ios.h \
@@ -1463,7 +1473,20 @@ CMakeFiles/SnakeGame.dir/src/renderer.cpp.o: ../src/renderer.cpp \
   /usr/include/c++/9/bits/basic_ios.tcc \
   /usr/include/c++/9/bits/ostream.tcc \
   /usr/include/c++/9/istream \
-  /usr/include/c++/9/bits/istream.tcc
+  /usr/include/c++/9/bits/istream.tcc \
+  /usr/include/c++/9/deque \
+  /usr/include/c++/9/bits/stl_deque.h \
+  /usr/include/c++/9/bits/deque.tcc \
+  /usr/include/c++/9/condition_variable \
+  /usr/include/c++/9/chrono \
+  /usr/include/c++/9/ratio \
+  /usr/include/c++/9/ctime \
+  /usr/include/c++/9/bits/parse_numbers.h \
+  /usr/include/c++/9/bits/std_mutex.h \
+  /usr/include/c++/9/bits/unique_lock.h \
+  ../src/common.h \
+  /usr/include/c++/9/thread \
+  /usr/include/c++/9/mutex
 
 CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
   /usr/include/stdc-predef.h \
@@ -1521,38 +1544,6 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
   /usr/include/c++/9/bits/functional_hash.h \
   /usr/include/c++/9/bits/range_access.h \
   /usr/include/c++/9/bits/vector.tcc \
-  /usr/include/c++/9/thread \
-  /usr/include/c++/9/chrono \
-  /usr/include/c++/9/ratio \
-  /usr/include/c++/9/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/9/limits \
-  /usr/include/c++/9/ctime \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/c++/9/bits/parse_numbers.h \
   /usr/include/c++/9/memory \
   /usr/include/c++/9/bits/stl_tempbuf.h \
   /usr/include/c++/9/bits/stl_raw_storage_iter.h \
@@ -1561,22 +1552,43 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
   /usr/include/c++/9/bits/postypes.h \
   /usr/include/c++/9/cwchar \
   /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/9/ext/atomicity.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1594,6 +1606,11 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
   /usr/include/c++/9/stdexcept \
   /usr/include/c++/9/string \
   /usr/include/c++/9/bits/char_traits.h \
+  /usr/include/c++/9/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/9/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
   /usr/include/c++/9/clocale \
@@ -1605,6 +1622,7 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
   /usr/include/c++/9/bits/cxxabi_forced.h \
   /usr/include/c++/9/bits/basic_string.h \
   /usr/include/c++/9/string_view \
+  /usr/include/c++/9/limits \
   /usr/include/c++/9/bits/string_view.tcc \
   /usr/include/c++/9/ext/string_conversions.h \
   /usr/include/c++/9/cstdlib \
@@ -1651,6 +1669,39 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
   /usr/include/c++/9/backward/auto_ptr.h \
   /usr/include/c++/9/pstl/glue_memory_defs.h \
   /usr/include/c++/9/pstl/execution_defs.h \
+  /usr/include/c++/9/iostream \
+  /usr/include/c++/9/ostream \
+  /usr/include/c++/9/ios \
+  /usr/include/c++/9/bits/ios_base.h \
+  /usr/include/c++/9/bits/locale_classes.h \
+  /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/system_error \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
+  /usr/include/c++/9/streambuf \
+  /usr/include/c++/9/bits/streambuf.tcc \
+  /usr/include/c++/9/bits/basic_ios.h \
+  /usr/include/c++/9/bits/locale_facets.h \
+  /usr/include/c++/9/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
+  /usr/include/c++/9/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
+  /usr/include/c++/9/bits/locale_facets.tcc \
+  /usr/include/c++/9/bits/basic_ios.tcc \
+  /usr/include/c++/9/bits/ostream.tcc \
+  /usr/include/c++/9/istream \
+  /usr/include/c++/9/bits/istream.tcc \
+  /usr/include/c++/9/deque \
+  /usr/include/c++/9/bits/stl_deque.h \
+  /usr/include/c++/9/bits/deque.tcc \
+  /usr/include/c++/9/condition_variable \
+  /usr/include/c++/9/chrono \
+  /usr/include/c++/9/ratio \
+  /usr/include/c++/9/ctime \
+  /usr/include/c++/9/bits/parse_numbers.h \
+  /usr/include/c++/9/bits/std_mutex.h \
+  /usr/include/c++/9/bits/unique_lock.h \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_main.h \
   /usr/include/SDL2/SDL_stdinc.h \
@@ -1791,33 +1842,9 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
   /usr/include/SDL2/SDL_system.h \
   /usr/include/SDL2/SDL_timer.h \
   /usr/include/SDL2/SDL_version.h \
-  ../src/object.h \
-  /usr/include/c++/9/mutex \
-  /usr/include/c++/9/system_error \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
-  /usr/include/c++/9/bits/std_mutex.h \
-  /usr/include/c++/9/bits/unique_lock.h \
-  /usr/include/c++/9/iostream \
-  /usr/include/c++/9/ostream \
-  /usr/include/c++/9/ios \
-  /usr/include/c++/9/bits/ios_base.h \
-  /usr/include/c++/9/bits/locale_classes.h \
-  /usr/include/c++/9/bits/locale_classes.tcc \
-  /usr/include/c++/9/streambuf \
-  /usr/include/c++/9/bits/streambuf.tcc \
-  /usr/include/c++/9/bits/basic_ios.h \
-  /usr/include/c++/9/bits/locale_facets.h \
-  /usr/include/c++/9/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
-  /usr/include/c++/9/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
-  /usr/include/c++/9/bits/locale_facets.tcc \
-  /usr/include/c++/9/bits/basic_ios.tcc \
-  /usr/include/c++/9/bits/ostream.tcc \
-  /usr/include/c++/9/istream \
-  /usr/include/c++/9/bits/istream.tcc
+  ../src/common.h \
+  /usr/include/c++/9/thread \
+  /usr/include/c++/9/mutex
 
 
 ../src/snake.cpp:
@@ -1840,9 +1867,7 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/9/atomic:
 
-/usr/include/c++/9/condition_variable:
-
-/usr/include/c++/9/pstl/glue_numeric_defs.h:
+../src/game.cpp:
 
 /usr/include/c++/9/bits/stl_numeric.h:
 
@@ -1854,35 +1879,7 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 ../src/game.h:
 
-../src/game.cpp:
-
-/usr/include/c++/9/istream:
-
-/usr/include/c++/9/bits/locale_facets.tcc:
-
-/usr/include/c++/9/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/c++/9/cwctype:
-
-/usr/include/c++/9/bits/locale_classes.h:
-
-/usr/include/c++/9/ostream:
-
-/usr/include/c++/9/system_error:
-
-/usr/include/c++/9/bits/streambuf.tcc:
-
-/usr/include/SDL2/SDL_system.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h:
-
-/usr/include/c++/9/bits/locale_facets.h:
-
-/usr/include/SDL2/SDL_sensor.h:
+../src/common.h:
 
 /usr/include/SDL2/SDL_messagebox.h:
 
@@ -1966,15 +1963,65 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmivlintrin.h:
 
-/usr/include/c++/9/bits/ostream.tcc:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmaintrin.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/9/include/sgxintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vldqintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlbwintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512cdintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512fintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx2intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avxintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/fxsrintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/popcntintrin.h:
+
+/usr/include/c++/9/bits/unordered_map.h:
+
+../src/renderer.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:
+
+/usr/include/SDL2/SDL_cpuinfo.h:
+
+/usr/include/SDL2/SDL_clipboard.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/f16cintrin.h:
+
+/usr/include/SDL2/SDL_rwops.h:
+
+/usr/include/SDL2/SDL_thread.h:
+
+/usr/include/SDL2/SDL_mutex.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/9/string:
+
+/usr/include/c++/9/debug/assertions.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512erintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/9/stdexcept:
 
 /usr/include/c++/9/array:
 
@@ -1988,8 +2035,6 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveintrin.h:
-
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/strings.h:
@@ -1998,25 +2043,83 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/9/bits/cpp_type_traits.h:
 
+/usr/include/c++/9/bits/locale_facets.tcc:
+
 /usr/include/c++/9/random:
 
 /usr/include/c++/9/tr1/poly_hermite.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmiintrin.h:
+
+/usr/include/SDL2/SDL_platform.h:
 
 /usr/include/c++/9/bits/char_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/c++/9/bits/ios_base.h:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/c++/9/bits/hashtable.h:
 
-/usr/include/c++/9/cwchar:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512pfintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/time.h:
+
+/usr/include/c++/9/unordered_map:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
+
+/usr/include/c++/9/clocale:
+
+/usr/include/c++/9/bits/refwrap.h:
+
+/usr/include/c++/9/bits/memoryfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/9/bits/hash_bytes.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/vaesintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/c++/9/ext/atomicity.h:
 
+/usr/include/c++/9/cwchar:
+
 /usr/include/c++/9/bits/range_access.h:
+
+/usr/include/c++/9/optional:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/9/string_view:
 
 /usr/include/SDL2/SDL_hints.h:
 
@@ -2028,6 +2131,10 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/9/bits/postypes.h:
 
+/usr/include/SDL2/SDL_endian.h:
+
+/usr/include/c++/9/tr1/exp_integral.tcc:
+
 /usr/include/c++/9/mutex:
 
 /usr/include/c++/9/bits/stringfwd.h:
@@ -2038,83 +2145,17 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/c++/9/optional:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/9/ios:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmiintrin.h:
-
-/usr/include/SDL2/SDL_platform.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h:
-
-/usr/include/c++/9/thread:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/9/bits/hash_bytes.h:
-
-/usr/include/locale.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:
-
-/usr/include/SDL2/SDL_shape.h:
-
-/usr/include/SDL2/SDL_quit.h:
-
-/usr/include/c++/9/ctime:
-
-/usr/include/c++/9/bits/ptr_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/vaesintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/9/string_view:
-
-/usr/include/c++/9/ratio:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/c++/9/bits/stl_iterator.h:
 
-/usr/include/SDL2/SDL_clipboard.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsavesintrin.h:
+
+/usr/include/c++/9/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/9/tr1/legendre_function.tcc:
-
-/usr/include/c++/9/debug/assertions.h:
-
-/usr/include/c++/9/string:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/9/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/9/bits/stl_iterator_base_funcs.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2vlintrin.h:
 
@@ -2122,11 +2163,9 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/9/cstdlib:
 
-/usr/include/c++/9/bits/stl_heap.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsavecintrin.h:
 
-/usr/include/c++/9/bits/basic_ios.tcc:
-
-/usr/include/c++/9/bits/alloc_traits.h:
+/usr/include/alloca.h:
 
 /usr/include/c++/9/bits/move.h:
 
@@ -2140,21 +2179,23 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/9/bits/stl_pair.h:
 
-/usr/include/c++/9/bits/std_mutex.h:
-
 /usr/include/SDL2/SDL_power.h:
+
+/usr/include/c++/9/bits/std_mutex.h:
 
 /usr/include/c++/9/ext/new_allocator.h:
 
 /usr/include/c++/9/tr1/modified_bessel_func.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmavlintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/9/bits/functional_hash.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx2intrin.h:
 
 /usr/include/SDL2/SDL_events.h:
 
@@ -2164,15 +2205,23 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/c++/9/bits/unique_lock.h:
+/usr/include/c++/9/bits/ptr_traits.h:
 
-/usr/include/wchar.h:
+/usr/include/SDL2/SDL_shape.h:
+
+/usr/include/SDL2/SDL_quit.h:
+
+/usr/include/c++/9/ctime:
 
 /usr/include/c++/9/pstl/glue_memory_defs.h:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/9/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmaintrin.h:
+
+/usr/include/c++/9/bits/ostream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
 
@@ -2192,10 +2241,6 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
 
-/usr/include/c++/9/streambuf:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
 /usr/include/SDL2/SDL_video.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h:
@@ -2205,6 +2250,8 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/c++/9/cmath:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/include/c++/9/condition_variable:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -2226,21 +2273,11 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/SDL2/SDL_thread.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/9/iostream:
-
-/usr/include/c++/9/bits/parse_numbers.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/pmmintrin.h:
 
 /usr/include/c++/9/bits/stl_relops.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avxintrin.h:
 
 ../src/snake.h:
 
@@ -2263,8 +2300,6 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/c++/9/bits/std_abs.h:
 
 /usr/include/asm-generic/errno-base.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/popcntintrin.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -2292,10 +2327,6 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/9/algorithm:
-
-/usr/include/c++/9/chrono:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/9/bits/istream.tcc:
@@ -2314,6 +2345,10 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
+
+/usr/include/c++/9/ext/alloc_traits.h:
+
 /usr/include/c++/9/exception:
 
 /usr/include/c++/9/bits/stl_function.h:
@@ -2326,7 +2361,9 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/9/cstdio:
 
-../src/object.h:
+/usr/include/SDL2/SDL_system.h:
+
+/usr/include/c++/9/bits/streambuf.tcc:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/clwbintrin.h:
 
@@ -2344,41 +2381,21 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/9/bits/atomic_base.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512cdintrin.h:
-
 ../src/controller.cpp:
 
 /usr/include/c++/9/backward/binders.h:
 
 /usr/include/c++/9/bits/shared_ptr.h:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/c++/9/bits/memoryfwd.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512erintrin.h:
-
 /usr/include/c++/9/cstdint:
 
 /usr/include/c++/9/bits/stl_vector.h:
 
-/usr/include/alloca.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsavecintrin.h:
-
-/usr/include/c++/9/stdexcept:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlintrin.h:
-
 /usr/include/c++/9/bits/predefined_ops.h:
 
 /usr/include/c++/9/cctype:
+
+/usr/include/c++/9/cwctype:
 
 /usr/include/SDL2/SDL_gesture.h:
 
@@ -2397,12 +2414,6 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/c++/9/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/9/ext/string_conversions.h:
-
-/usr/include/SDL2/SDL_cpuinfo.h:
-
-/usr/include/c++/9/bits/stl_bvector.h:
-
-/usr/include/stdlib.h:
 
 /usr/include/c++/9/bits/uses_allocator.h:
 
@@ -2438,6 +2449,16 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/c++/9/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/9/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/9/ratio:
+
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/SDL2/SDL_version.h:
@@ -2445,10 +2466,6 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
 
 /usr/include/SDL2/begin_code.h:
-
-/usr/include/c++/9/ext/alloc_traits.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
 
 /usr/include/stdio.h:
 
@@ -2482,13 +2499,87 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/c++/9/backward/auto_ptr.h:
 
+/usr/include/c++/9/ostream:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/9/ios:
+
+/usr/include/c++/9/bits/stl_heap.h:
+
+/usr/include/c++/9/bits/alloc_traits.h:
+
+/usr/include/c++/9/bits/basic_ios.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/smmintrin.h:
+
+/usr/include/c++/9/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/9/bits/ios_base.h:
+
+/usr/include/c++/9/bits/locale_classes.h:
+
+/usr/include/SDL2/SDL_sensor.h:
+
+/usr/include/c++/9/bits/locale_facets.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h:
+
+/usr/include/c++/9/stdlib.h:
+
+/usr/include/c++/9/system_error:
+
+/usr/include/c++/9/thread:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/9/streambuf:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h:
+
+/usr/include/c++/9/bits/streambuf_iterator.h:
+
+/usr/include/c++/9/istream:
+
+/usr/include/c++/9/bits/unique_lock.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/9/deque:
+
+/usr/include/c++/9/bits/stl_bvector.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/9/bits/stl_deque.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/9/bits/locale_classes.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/9/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/9/bits/deque.tcc:
+
+/usr/include/c++/9/algorithm:
+
+/usr/include/c++/9/chrono:
+
+/usr/include/c++/9/iostream:
+
+/usr/include/c++/9/bits/parse_numbers.h:
+
 /usr/include/SDL2/SDL.h:
 
 /usr/include/SDL2/SDL_stdinc.h:
 
 /usr/include/SDL2/close_code.h:
-
-/usr/include/c++/9/stdlib.h:
 
 /usr/include/string.h:
 
@@ -2496,21 +2587,7 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/smmintrin.h:
-
-/usr/include/c++/9/math.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveoptintrin.h:
-
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/SDL2/SDL_mutex.h:
-
-/usr/include/c++/9/bits/locale_classes.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/c++/9/bits/random.tcc:
 
@@ -2521,14 +2598,6 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/9/bits/hashtable.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/time.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512pfintrin.h:
 
 /usr/include/c++/9/tr1/special_function_util.h:
 
@@ -2555,39 +2624,3 @@ CMakeFiles/SnakeGame.dir/src/snake.cpp.o: ../src/snake.cpp \
 /usr/include/c++/9/future:
 
 /usr/include/SDL2/SDL_error.h:
-
-/usr/include/c++/9/tr1/exp_integral.tcc:
-
-/usr/include/SDL2/SDL_endian.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/f16cintrin.h:
-
-/usr/include/SDL2/SDL_rwops.h:
-
-/usr/include/c++/9/bits/functexcept.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsavesintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h:
-
-/usr/include/c++/9/unordered_map:
-
-/usr/include/c++/9/bits/refwrap.h:
-
-/usr/include/c++/9/clocale:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h:
-
-/usr/include/c++/9/bits/unordered_map.h:
-
-../src/renderer.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/fxsrintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512fintrin.h:

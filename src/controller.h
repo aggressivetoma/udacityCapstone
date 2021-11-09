@@ -2,23 +2,23 @@
 #define CONTROLLER_H
 
 #include "snake.h"
+#include "game.h"
 #include <memory>
 #include <thread>
 
 class Controller {
  public:
-  //void HandleInput(bool &running, Snake &snake) const;
-  //void HandleInput( Snake &snake) const;
-  //void HandleInput(std::shared_ptr<Snake> snake);
+  ~Controller(){ thread.join(); };
   void HandleInput(void);
   void Simulate(void);
-  void setSnake(std::shared_ptr<Snake> snake){_snake = snake;}
+  void setSnakes(std::vector<std::shared_ptr<Snake>> snakes){_snakes = snakes;}
+  void setGame(std::shared_ptr<Game> game){_game = game;}
 
  private:
-  //void ChangeDirection(Snake &snake, Snake::Direction input,
-  void ChangeDirection(Snake::Direction input, Snake::Direction opposite) const;    
-  std::vector<std::thread> threads;
-  std::shared_ptr<Snake> _snake;
+  void ChangeDirection(int player, Snake::Direction input, Snake::Direction opposite) const;    
+  std::shared_ptr<Game> _game;
+  std::vector<std::shared_ptr<Snake>> _snakes;
+  std::thread thread;
 
 };
 

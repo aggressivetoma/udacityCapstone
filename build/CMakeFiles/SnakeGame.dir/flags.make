@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/SDL2 -I/home/toma/udacity/capstone/CppND-Capstone-Snake-Game/src
+CXX_INCLUDES = -I/usr/include/SDL2 -I/home/toma/udacity/capstone/git/udacityCapstone/src
 
 CXX_FLAGS = -std=c++17 -pthread   -std=c++17 -std=gnu++17
 
